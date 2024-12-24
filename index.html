@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page com Carrossel</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<header>
+    <div><img src="images/Logo.jpg" width="100px" alt="Minha Marca"></div>
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#articles">Artigos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <section class="carousel">
+        <div class="slides">
+            <div class="slide active" style="background-image: url('images/1.png');">
+            </div>
+            <div class="slide" style="background-image: url('images/2.png');">
+            </div>
+            <div class="slide" style="background-image: url('images/3.png');">
+            </div>
+        </div>
+    </section>
+
+    <main>
+<br><br>
+        <section class="home">
+            <h2>Bem-vindo ao nosso site de divulgação científica!</h2>
+            <p>Explore o universo se divertindo!</p>
+
+        </section>
+
+        <section id="articles" class="articles">
+    
+                <main>
+                    <!-- Artigos -->
+
+                    <div class="articles">
+                        <h2>Artigos Recentes</h2>
+                        <div class="article">
+                            <img src="images/supernova.png" alt="Imagem de uma supernova">
+                            <h3>Supernovas</h3>
+                            <p>Explosões estelares que espalham elementos pelo universo e criam novas estrelas e
+                                planetas.</p>
+                            <a href="#">Leia mais</a>
+                        </div>
+                        <div class="article">
+                            <img src="images/buracob.png" alt="Imagem ilustrativa de um buraco branco">
+                            <h3>Buracos Brancos</h3>
+                            <p>Fenômenos teóricos que expulsariam matéria, opostos aos buracos negros.</p>
+                            <a href="#">Leia mais</a>
+                        </div>
+                        <div class="article">
+                            <img src="images/buracon.png" alt="Imagem de um buraco negro">
+                            <h3>Buracos Negros</h3>
+                            <p>Regiões onde a gravidade é tão intensa que nada escapa, essenciais para o universo.</p>
+                            <a href="#">Leia mais</a>
+                        </div>
+
+                    </div>
+                </main>
+                <section id="sobre" class="section sobre">
+                    <h2>Sobre Nós</h2>
+                    <p>A InterStarly é uma empresa apaixonada por compartilhar o incrível universo da astronomia com o
+                        mundo! 🌌✨ <br> Seu trabalho é tornar o espaço mais próximo e fascinante, levando ciência de maneira
+                        acessível e divertida para todos. Seja por meio de conteúdos educativos, vídeos envolventes ou
+                        eventos de divulgação, a InterStarly transforma o estudo do cosmos em algo inspirador e fácil de
+                        entender.<br> Com um time de pessoas apaixonadas pelo que fazem, a empresa busca despertar a curiosidade sobre
+                        os mistérios do universo, explorando estrelas, planetas e galáxias distantes. A missão da
+                        InterStarly é fazer com que cada pessoa se sinta parte dessa imensa jornada pelo espaço. Porque,
+                        na verdade, o céu nunca esteve tão perto! 🚀🌠</p>
+                </section>
+
+                <section id="contato" class="section contato"> 
+                    <h2>Contato</h2>
+                    <p>Entre em contato conosco para saber mais!</p>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 InterStarly. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
